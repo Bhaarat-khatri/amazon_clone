@@ -1,0 +1,10 @@
+.order {
+  margin: 25px 40px;
+  padding: 10px 15px;
+  border: 1px solid black;
+}
+
+.order h2,
+.order p {
+  margin: 15px;
+}

@@ -1,0 +1,33 @@
+.slider {
+  margin: auto;
+}
+
+.img {
+  object-fit: contain;
+  width: 100%;
+  z-index: -1;
+  margin-bottom: -180px;
+  -webkit-mask-image: linear-gradient(180deg, #000, transparent);
+}
+
+.slick-prev {
+  left: 15px;
+}
+
+.slick-next {
+  right: 15px;
+}
+
+.slick-next,
+.slick-prev {
+  z-index: 10;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  color: black;
+}
+
+.slick-dots {
+  display: none !important;
+}

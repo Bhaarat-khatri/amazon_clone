@@ -1,0 +1,34 @@
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: white;
+}
+
+.subtotal p {
+  margin-bottom: 4px;
+  font-size: 18px !important;
+  line-height: 24px !important;
+  font-family: "Amazon Ember", Arial, sans-serif;
+}
+
+.subtotal small {
+  margin-bottom: 10px;
+  display: flex;
+  font-size: 15px;
+  align-items: center;
+}
+
+.subtotal small input {
+  margin: 0px 8px 0px 0px;
+}
+
+.subtotal button {
+  border: 2px;
+  line-height: 32px;
+  border-radius: 8px;
+  background: #ffd814;
+  border-color: #fcd200;
+  margin: 10px 0px;
+  cursor: pointer;
+}

@@ -1,0 +1,74 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  height: 100vh;
+}
+
+.amazon_logo {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0px;
+}
+
+.amazon_logo img {
+  width: 100px;
+  object-fit: contain;
+}
+
+.login_box {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  border-radius: 4px;
+  border: 1px #ddd solid;
+  background-color: #fff;
+  padding: 14px 20px;
+}
+
+.login_heading {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.LineOne {
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.LineTwo input {
+  width: 95%;
+  height: 16px;
+  outline: none;
+  background-color: #e8f0fe;
+  border: 1px solid #a9c8fd;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.login_info button {
+  width: 100%;
+  padding: 8px;
+  margin: 10px 0px;
+  background-color: #f0c352;
+  border: 0.5px solid #fdbd1a;
+  cursor: pointer;
+}
+
+.Login_data {
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 400;
+}
+
+.createButton {
+  padding: 6px;
+  margin: 20px 0px;
+  cursor: pointer;
+}
